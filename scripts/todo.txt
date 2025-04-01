@@ -1,0 +1,6 @@
+bar graph (percentage of population migrating both dest and origin)
+pie chart (reasons for migration)
+line chart (annual growth rate)
+distribution (age distribution of migration)
+heatmap (think)
+scatter plot (think)
