@@ -31,7 +31,7 @@ except Exception as e:
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Overview", "Detailed Analysis", "Correlation Analysis", "Geographic Visualization", "Custom Filters"])
+page = st.sidebar.radio("Go to", ["Overview", "Geographic Visualization", "Detailed Analysis", "Correlation Analysis", "Custom Filters"])
 
 # Overview page
 if page == "Overview":
