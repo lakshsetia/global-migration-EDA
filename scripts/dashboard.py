@@ -295,7 +295,7 @@ elif page == "Detailed Analysis":
 
     ### Heatmap ###
     # Annual growth rate
-    st.subheader("Annual Growth Rate of Continents (1990-2025)")
+    st.subheader("Annual Growth Rate of migrants based on Continents (1990-2025)")
     filepath = os.path.join("data", "international-migrant-stock", "growth_rate.xlsx")
     col11, col12, col13 = st.columns([0.15, 0.7, 0.15])
     with col12:
@@ -318,7 +318,7 @@ elif page == "Detailed Analysis":
         plt.figure(figsize=(12, 7)) 
         fig, ax = plt.subplots()
         sns.heatmap(df_continents, fmt=".2f", annot=True, cmap=sns.cubehelix_palette(as_cmap=True), center=0, ax=ax)
-        plt.title("Annual Growth Rate of Continents (%)", pad=20)
+        plt.title("Annual Growth Rate of migrants based on Continents (%)", pad=20)
         plt.tight_layout()
         st.pyplot(fig, use_container_width=True)
 
